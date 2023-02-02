@@ -1,0 +1,129 @@
+body {
+    background-color: whitesmoke;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#bandejaDeEntrada {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #ff827a;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#buscarPokemon {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px 20px;
+ }
+
+#buscarPokemon input {
+    margin-left: 20px;
+    height: 30px;
+    font-size: 14px;
+    padding: 4px 8px;
+    flex-grow: 1;
+}
+
+#buscarPokemon button {
+    margin-left: 20px;
+    height: 30px;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+#listadoCategorias div{
+    width: 100%;
+    flex-direction: column;
+    overflow-y: scroll;
+    border-right: 2px solid lightgrey;
+    align-items: flex-start;
+    text-align: left;
+    max-height: 700px;
+}
+
+#listadoCategorias {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+#listadoCategorias:hover {
+    cursor: pointer;
+    background-color: lightpink;
+    border-radius: 12px;
+}
+
+#vistaCategoria {
+    width: 65%;
+    text-align: left;
+    padding: 1rem;
+}
+
+img{
+    width: 60%;
+}
+.pokemonName{
+    font-size: 35px;
+    margin-bottom: 0px;
+    
+}
+.typeName{
+    display: block;
+}
+span{
+    font-weight:bold;
+}
+.normal{
+    color: rgb(214, 229, 215)
+}
+.flying{
+    color: #447a9b;
+}
+.grass{
+    color: rgb(57, 168, 66)
+}
+.poison{
+    color: rgb(180, 28, 182)
+}
+.fire{
+    color: orange;
+}
+.water{
+    color: rgb(68, 190, 238);
+}
+.bug{
+    color: green;
+}
+.ground{
+    color: rgb(161, 83, 83);
+}
+.rock{
+    color: rgb(160, 151, 151);
+}
+.ghost{
+    color: rgb(17, 17, 167);
+}
+.electric{
+    color: rgb(249, 249, 13);
+}
+.psychic{
+    color: #6b53bc;
+}
+.fairy{
+    color: #eeaba7;
+}
+.dragon{
+    color: #4049c5;
+}
+.steel{
+    color: #737f87;
+}
