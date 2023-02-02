@@ -1,11 +1,11 @@
 {
-  "name": "ctd-esp-fe1-clase19-redux",
+  "name": "ctd-esp-fe1-clase20-redux",
   "version": "1.0.0",
-  "description": "ctd-esp-fe1-clase19-reduxThunk-solution",
+  "description": "ctd-esp-fe1-clase20-reduxSaga-solution",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DH-Esp-Frontend/ctd-esp-fe1-clase13-typescript-base.git"
+    "url": "git+https://github.com/DH-Esp-Frontend/ctd-esp-fe1-clase20-reduxSaga-mesa-base"
   },
   "keywords": [
     "Frontend",
